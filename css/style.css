@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   background: #1B2330;
 }
 
@@ -59,4 +60,22 @@ header main {
 header main .header_main_img {
   margin: 0 auto;
   width: 720px;
+}
+header main .header_main_img img {
+  margin-bottom: 36px;
+}
+header main .header_main_img h1 {
+  width: 734px;
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+header main .header_main_img p {
+  width: 589px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
