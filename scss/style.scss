@@ -19,6 +19,12 @@ a{
 button{
     cursor: pointer;
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , button {
+    font-family: 'Raleway', sans-serif;
+}
 header{
     padding-top: 73px;
     padding: 73px 80px;
@@ -80,12 +86,13 @@ header{
                 margin-bottom: 32px;
             }
             button{
-                margin: 0 auto;
+                margin-left: 220px;
                 padding: 19px 95px;
                 color: #FFF;
                 font-size: 16px;
                 font-weight: 700;
                 border: none;
+                border-radius: 49px;
                 filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
                 background: linear-gradient(138.1deg, #63E1D9 -49.34%, #34A0CD 100%);
             }
