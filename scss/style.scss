@@ -22,7 +22,7 @@ button{
 p{
     font-family: 'Open Sans', sans-serif;
 }
-h1 , h2 , h3 , h4 , h5 , button {
+h1 , h2 , h3 , h4 , h5 , button , a{
     font-family: 'Raleway', sans-serif;
 }
 header{
@@ -33,7 +33,6 @@ header{
     height: 3546px;
     background: #1B2330;
     border: 3px solid white;
-    
     nav{
         display: flex;
         align-items: center;
@@ -41,7 +40,6 @@ header{
         margin: 0 auto;
         max-width: 1280px;
         height: 52px;
-        border: 3px solid rgb(255, 129, 129);
         margin-bottom: 75px;
         .header_nav_link{
             ul{
@@ -53,6 +51,13 @@ header{
                         color: #FFF;
                         font-size: 16px;
                         font-weight: 400;
+                        // transition: 100ms;
+                    }
+                    a:hover{
+                        color: #FFF;
+                        font-weight: 700;
+                        // text-decoration-line: underline;
+                        border-bottom: 2px solid white;
                     }
                 }
             }
@@ -62,7 +67,8 @@ header{
         margin: 0 auto;
         .header_main_img{
             margin: 0 auto;
-            width: 720px;
+            max-width: 720px;
+            margin-bottom: 158px;
             img{
                 margin-bottom: 36px;
             }
@@ -95,6 +101,44 @@ header{
                 border-radius: 49px;
                 filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
                 background: linear-gradient(138.1deg, #63E1D9 -49.34%, #34A0CD 100%);
+            }
+            button:hover{
+                background: #8ADAE3;
+                filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+            }
+        }
+        .header_main_logos{
+            margin: 0 auto;
+            width: 880px;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 79px;
+            column-gap: 147px;
+            .contents{
+                width: 349px;
+                height: 214px;
+                .img{
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 16px;
+                    width: 104px;
+                    height: 104px;
+                }
+                h4{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                }
+                p{
+                    text-align: center;
+                    width: 349px;
+                    color: #FFF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                }
             }
         }
     }
