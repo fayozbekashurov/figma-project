@@ -23,7 +23,7 @@ a{
 button{
     cursor: pointer;
 }
-p{
+p , .header_main_input{
     font-family: 'Open Sans', sans-serif;
 }
 h1 , h2 , h3 , h4 , h5 , button , a{
@@ -301,9 +301,43 @@ header{
                 line-height: 21px;
                 margin-bottom: 38px;
             }
-            // .input_btn{
-                
-            // }
+            .input_btn{
+                display: flex;
+                column-gap: 29px; 
+                margin: 0 auto;
+                width: 709px;
+                input{
+                    padding: 16px 228px 16px 28px;
+                    color: #07043B;
+                    font-size: 12px;
+                    font-weight: 400;
+                    border: none;
+                    outline: none;
+                    border-radius: 100px;
+                    fill: #FFF;
+                    filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+                }  
+                input::placeholder{
+                    color: #C0C0C0;
+                    font-size: 12px;
+                    font-weight: 400;
+                }         
+                button{
+                    padding: 15px 26px;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 700;
+                    border: none;
+                    border-radius: 100px;
+                    background: linear-gradient(129.57deg, #63E1D9 -26.63%, #34A0CD 100%);
+                    filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+                }
+                button:hover{
+                    background: #8ADAE3;
+                    filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+                }
+            }
         }
-    }
-}   
+    }   
+}
