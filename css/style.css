@@ -33,10 +33,16 @@ h1, h2, h3, h4, h5, button, a {
   font-family: "Raleway", sans-serif;
 }
 
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   padding-top: 73px;
-  padding: 73px 80px;
   margin: 0 auto;
+  padding: 73px 80px;
   max-width: 1440px;
   height: 3546px;
   background: #1B2330;
@@ -220,6 +226,7 @@ header main .header_main_contents {
   display: flex;
   -moz-column-gap: 40px;
        column-gap: 40px;
+  margin-bottom: 201px;
 }
 header main .header_main_contents .contents_img p {
   position: absolute;
@@ -268,4 +275,29 @@ header main .header_main_contents .contents .title .text .about {
   font-weight: 400;
   line-height: 10px;
   letter-spacing: 0.5px;
+}
+header main .header_main_input {
+  transform: translateY(-50px);
+  margin: 0 auto;
+  width: 863px;
+  height: 275px;
+  border-radius: 9px;
+  background: #1B2330;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+}
+header main .header_main_input h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+header main .header_main_input p {
+  margin: 0 auto;
+  text-align: center;
+  width: 673px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 38px;
 }/*# sourceMappingURL=style.css.map */
